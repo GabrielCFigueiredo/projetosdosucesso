@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viemport"content=widt>
+    <title>CRIAR SUA CONTA HELLO PIZZA</title>
+</head>
+<body>
+    <form method="get" action=""
+        <fieldset>
+            <legend>Conta:</legend>
+            <div>
+                <LAbel>email:</LAbel>
+                <input type="email" name="email"required >
+            </div> 
+            <div>
+                <label>senha:</label>
+                <input type="password" name="senha"required>
+        </fieldset>
+        <fieldset>
+            <legend>Pessoal:</legend>
+            </div>
+            <div>
+                <label>nome:</label>
+                <input type="text" name="nome"placeholder="ex: gabriel" required>
+            </div>
+            <div>
+                <label>telefone:</label>
+                <input type="number" name="numero" placeholder="01699999999" patern="\([0-9]{2}\)[\s][0-9]{5}-[0-9]{4}"required>
+            </div>
+            <div>
+                <label>Data de nascimento:</label>
+                <input type="date" name="data" required>
+            </div>
+            <div>
+                <label>foto do perfil:</label>
+                <input type="file" name="foto do perfil" accept="image/*">
+            </div>
+            <div>
+                <label>sexo:</label>
+                <input type="radio" value="masculino" name="sexo" checked>
+                <label>masculino</label>
+                <input type="radio" value="feminino" name="sexo">
+                <label>feminino</label>
+        </fieldset>
+        <fieldset>
+                <legend>Endereço:</legend>
+            </div>
+            <div>
+                <label>Rua:</label>
+                <input type="text" name="rua"required>
+            </div>
+            <div>
+                <label>numero</label>
+                <input type="number" name="numero da casa" min="1" max="9999">
+            </div>
+            <div>
+                <label>complemento:</label>
+                <input type="text" name="complemento" required>
+            </div>
+            <div>
+                <label>cidade:</label>
+                <input type="text" name="cidade" required>
+            </div>
+            <div>
+                <label>estado</label>
+                <select name="endereço_estado">
+                    <option value="SP">Sao Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+        </fieldset>
+            </div>
+        <fieldset>
+            <legend>Anuncio:</legend>
+            <div>
+                <label>como conheceu a hello pizza</label>
+                <textarea name="como conheceu o site" maxlength="300" placeholder="explique como você conheceu a hello pizza!"></textarea>
+            </div>
+            <div>
+                <label>desejo receber oferta pelo email</label>
+                <input type="checkbox" checked name="receber anuncio">
+        </fieldset>
+        <input type="submit" value="enviar">
+            </div>
+
+    </form>
+    
+</body>
+</html>
